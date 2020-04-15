@@ -183,7 +183,7 @@ path: baidusitemap.xml
 deploy:
   type: netlify
   token: <your personal access token>
-  site_id: <your website id>
+  site_id: justcookings
   
 ## share
 share: true
@@ -268,3 +268,7 @@ rss:
 google_site_verification: 
 baidu_site_verification: 
 icon: 
+
+index_generator:
+-  path: ''
++  path: 'about'
