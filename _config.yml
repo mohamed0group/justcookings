@@ -48,19 +48,6 @@ anchorjs: true                          # if you want to customize anchor. check
 ga_track_id: 'UA-XXXXXXXX-X'          # Format: UA-xxxxxx-xx
 ga_domain: yoursite
 
-# # Sidebar settings
-# sidebar: true                      # whether or not using Sidebar.
-# sidebar-about-description: "Welcome to visit, I'm Ben Abdeen!"
-# sidebar-avatar: img/myAvatar 600 r.png      # use absolute URL, seeing it's used in both `/` and `/about/`
-# widgets:
-# - search
-# - featured-tags
-# - short-about
-# - visitor
-# - recent-posts
-# - friends-blog
-# - archive
-# - category
 
 ## Search
 search:
@@ -238,17 +225,12 @@ bg_effects:
 ## light , dark or star
 ## If you set the value of the `color_theme` to `dark`, set the value of the `highlight_theme` to `night` in `/theme/snail/config.yml`
 ## `mouse_control` is only valid for star themes
-color_theme: light
-mouse_control: true
+# color_theme: light
+# mouse_control: true
 
-# Visitor statistics
-visitor:
-  enable: true
-  type:
 menu:
   Home: /
   Archives: /archives
-
 
 sidebar: right
 
@@ -269,7 +251,3 @@ rss:
 google_site_verification: 
 baidu_site_verification: 
 icon: 
-
-index_generator:
--  path: ''
-+  path: 'about'
