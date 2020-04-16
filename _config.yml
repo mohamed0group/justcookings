@@ -48,10 +48,10 @@ anchorjs: true                          # if you want to customize anchor. check
 ga_track_id: 'UA-XXXXXXXX-X'          # Format: UA-xxxxxx-xx
 ga_domain: yoursite
 
-# Sidebar settings
-sidebar: true                      # whether or not using Sidebar.
-sidebar-about-description: "Welcome to visit, I'm Ben Abdeen!"
-sidebar-avatar: img/myAvatar 600 r.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+# # Sidebar settings
+# sidebar: true                      # whether or not using Sidebar.
+# sidebar-about-description: "Welcome to visit, I'm Ben Abdeen!"
+# sidebar-avatar: img/myAvatar 600 r.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 # widgets:
 # - search
 # - featured-tags
@@ -249,7 +249,8 @@ menu:
   Home: /
   Archives: /archives
 
-# sidebar: right
+
+sidebar: right
 
 widgets:
 - search

@@ -10,7 +10,7 @@ subtitle:
 tags: Smokin' & Grillin' wit AB
 categories: Recipes
 ---
-<iframe frameborder="0" width="720" height="480"
+<iframe frameborder="0" width="auto" height="auto"
 src="//www.dailymotion.com/embed/video/x7t8yau?autoplay=1&mute=1"
 allowfullscreen allow="autoplay"></iframe>
 
